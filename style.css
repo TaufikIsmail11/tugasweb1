@@ -1,0 +1,417 @@
+body{
+	margin: 0px;
+	padding:0px;
+	font-family: arial;
+	font-weight: normal;
+}
+h2{
+	font-size: 180%;
+}
+.wrapper{
+	width: 80%;
+	margin: 0 auto;
+	padding: 0 auto;
+}
+header {
+	background: url(img/depan.png);
+	height: 450px;
+	padding: 0px;
+	margin: 0px;
+}
+#atas {
+	width: 100%;
+	padding-top: 50px;   
+}
+.header img{
+	float: left;
+	width: 65px;
+	height: 80px;
+	margin-left: -20px;
+	margin-top: -10px;
+}
+.header{
+	background: #0093DD;
+	padding: 5px 0px;
+
+}
+.header ul li{
+	display: inline-block;
+}
+.header ul li:hover ul{
+	display: block;
+	position: absolute;
+}
+.header a{
+	text-decoration: none;
+	color: #fff;
+	float: left;
+	padding: 15px;
+	font-size: 17px;
+	font-weight: normal;
+}
+.header a:hover{
+	color: #C9C5BD;
+}
+.header ul ul {
+	display:none; 
+	position:absolute; 
+	background-color:#0380bf;
+	left:300px; 
+	top:120px; 
+	width:100px;
+	line-height: normal;
+}
+.header ul ul::before{
+	content: "";
+	width: 0;
+	height: 0;
+	position: absolute;
+	bottom: 100%;
+	left: 15px;
+	border: 8px solid transparent;
+	border-color: transparent transparent #0380bf;
+}
+ 
+.header ul ul li a {
+	float:none; 
+	display:block; 
+	margin-left:-45px; 
+	width:160px;
+}
+.header ul ul li a:hover{
+	background: #0093DD;
+	color: #fff;
+	width: 118px;
+}
+.cari{
+	margin-right: 15px;
+}
+.rr{
+	float: right;
+	margin-top: -60px;
+	border-radius: 3px;
+	border :none;
+	line-height: 34px;
+	font-size: 13px;
+	padding-right: 67px;
+	padding-left: 5px;
+}
+.motto h3{
+	width: 34%;
+	background: #F8C301;
+	text-align: center;
+	color: #fff;
+	font-size: 25px;
+	padding: 10px 0px;
+	padding-bottom: 13px;
+	padding-top: 13px;
+	font-weight: normal;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+.motto p{
+	width: 338px;
+	background: rgba(0,147,221,0.7);
+	color: #fff;
+	margin-top: 20px;
+	padding: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+	font-weight: normal;
+}
+
+
+
+.content{
+	max-width: 100px;
+	margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 100%;
+	border: solid 4px #0093dd;
+	overflow: hidden;
+	height: 100px;
+
+}
+.potokepsek img{
+	width: 100%;
+	height: 150px;
+}
+.sambutan h2{
+	text-align: center;
+	font-size: 27px;
+}
+.pujisyukur{
+	text-align: center;
+	width: 80%;
+	margin-left: 100px;
+	margin-top: 40px;
+	font-size: 18px;
+	font-weight: normal;
+	color: #111;
+}
+.pujisyukur button{
+	background: #0093DD;
+	color: #fff;
+	height: 50px;
+	font-size: 17px;
+	line-height: 50px;
+	border: none;
+	width: 180px;
+	border-radius: 4px;
+	margin-top: 30px;
+	cursor: pointer;
+}
+.pujisyukur button:hover{
+	background: #0077B2;
+	color: #f4f4f4;
+}
+.all_kotak{
+  	float: left;
+  	width: 20%;
+  	border-bottom: 5px solid #0093dd;
+    margin: 26px;
+    padding-top: 10px;
+
+}
+.all_kotak img a{
+	height: 70px;
+	width: 70px;
+	padding-left: 70px;
+}
+
+.all_kotak a{
+	text-decoration: none;
+	color: #000;
+	font-size: 20px;
+	padding-left: 8px;
+	text-align: center;
+	padding-left: 75px;
+}
+
+.all_kotak a:hover{
+	color: #0093DD;
+}
+#berita{
+	background: #F2F2F2;
+	height: 350px;
+}
+.teks h2{
+	font-size: 25px;
+	padding-top: 50px;
+	margin: 10px;
+}
+#img img{
+	height: 30px;
+	width: 30px;
+	float: right;
+	margin-top: -60px;
+}
+.alpp{
+	float: left;
+	margin: 12px;
+}
+.alpp img{
+	width: 240px;
+	height: 160px;
+}
+.alpp p{
+	letter-spacing: normal;
+}
+.ps{
+	padding-right: 23px;
+
+}
+.title_ps{
+	padding-top: 30px;
+	border-bottom: solid 5px #ccc;
+	width: 70%;
+}
+.titlee_ps{
+	padding-top: 30px;
+	border-bottom: solid 5px #ccc;
+	width: 100%;
+}
+.vidio img{
+	width: 420px;
+	height: 250px;
+	margin-top: 17px;
+}
+.pesan{
+	text-align: left;
+	width: 40%;
+	float: right;
+	padding-right: 355px;
+	margin-top: -260px;
+	text-align: left;
+	width: 25%;
+	float: right;}
+.pesan button{
+	line-height: 60px;
+	width: 185px;
+	border-radius: 3px;
+	background: #0093DD;
+	color: #fff;
+	font-size: 16px;
+	cursor: pointer;
+	border: none;
+	margin-top: 50px;
+	margin-left: 37px;
+}
+.pesan button:hover {
+	background: #0077B2;
+	color: #f4f4f4;
+}
+.agenda{
+	width: 30%;
+	float: right;
+	border-bottom: solid 2px #ccc;
+}
+
+.isiag img {
+	width: 46px;
+	height: 46px;
+	float: left;
+	padding-top: 150px;
+	border: solid 1px #ccc;
+	padding: 5px;
+	margin-top: 15px;
+	margin-right: 9px;
+
+}
+.pagenda h4{
+	margin-left: 5px;
+	padding-right: 5px;
+}
+
+.kiri{
+	width: 50%;
+	float: left;
+	text-align: left;
+}
+.kiri a{
+	text-decoration: none;
+	color: #0093DD;
+	padding-left: 15px;
+}
+.kanan{
+	width: 50%;
+	float: left;
+	text-align: left;
+}
+.kanan a{
+	text-decoration: none;
+	color: #0093DD;
+	padding-left: 75px;
+}
+
+
+.teksga{
+	border-bottom: solid 5px #ccc;
+	padding-top: 20px;
+	margin-bottom: 10px;
+	margin: 10px;
+}
+
+.photo_gallery{
+	float: left;
+	width: 50%;
+}
+.potokpsk img{
+	width: 48%;
+	height: 180px;
+	margin: 1%;
+	float: left;
+}
+.potokpsk:hover img{
+	-webkit-transform: scale(1.1);
+}
+
+.map{
+	width: 50%;
+	float: right;
+}
+.potomaps img{
+	margin-left: 10px;
+	padding-top: 5px;
+	height: 372px;
+	width: 530px;
+}
+
+
+footer {
+	border-top: solid 5px #ccc;
+	padding-top: 30px;
+}
+.tulisan h3{
+	font-size: 18px;
+}
+.hu li{
+	list-style: none;
+	padding: 3px;
+}
+.hu a{
+	text-decoration: none;
+	color: #222;
+	font-weight: bold;
+	font-size: 17px;
+}
+.hu a:hover{
+	color: #0093DD;
+}
+.hu p{
+	color: #222;
+	font-weight: bold;
+	font-size: 18px;
+}
+.hu{
+	width: 28%;
+	float: left;
+}
+.sosial{
+	width: 40%;
+	float: right;
+}
+.sm_{
+	margin: 2px;
+	float: left;
+}
+#footer{
+	background: #282828;
+	height: 40px;
+	padding: 15px 0px;
+	width: 100%;
+	margin-top: 30px;
+}
+.texs{
+	float: left;
+	width: 50%;
+	text-align: left;
+	color: #fff;
+	font-size: 13px;
+}
+.texs a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 13px;
+}
+.texs a:hover{
+	color: #0093DD; 
+}
+span{
+	float: right;
+	font-size: 13px;
+	color: #fff;
+}
+span a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 13px;
+}
+span a:hover{
+	color: #0093DD; 
+}
+.clear{
+	clear: both;
+}
